@@ -9,6 +9,7 @@ class TestMeme < MiniTest::Unit::TestCase
     assert_equal  0.4, postman(4)
     assert_equal  0, postman(0)
     assert_equal  5.41, postman(56)
+    assert_equal  48.06 postman(499)
   end
 
 end

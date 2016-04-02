@@ -1,7 +1,3 @@
-require 'wrong/assert'
-include Wrong::Assert
-Wrong.config.color
-
 def postman(amount)
 #BEGIN
 sum = 0
