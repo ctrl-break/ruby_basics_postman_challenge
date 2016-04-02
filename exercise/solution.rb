@@ -2,10 +2,6 @@ require 'wrong/assert'
 include Wrong::Assert
 Wrong.config.color
 
-case_1 = 45
-case_2 = 80
-case_3 = 4
-
 def postman(amount)
 #BEGIN
 sum = 0
@@ -26,7 +22,3 @@ end
 return sum.round(2)
 #END
 end
-
-assert { postman(case_1) == 4.34 }
-assert { postman(case_2) == 7.7 }
-assert { postman(case_3) == 0.4 }

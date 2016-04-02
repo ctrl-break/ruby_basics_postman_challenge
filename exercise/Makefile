@@ -1,2 +1,2 @@
 test:
-	@ ruby solution.rb
+	@ ruby test.rb
